@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kscv_portfolio/core/theme/app.theme.dart';
-import 'package:kscv_portfolio/presentation/home.dart';
+import 'package:kscv_portfolio/views/home/home_view.dart';
 
 void main() => runApp(const MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: ThemeMode.system,
-      home: const Home(),
+      home: const HomeView(),
     );
   }
 }
